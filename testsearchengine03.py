@@ -8,7 +8,7 @@ from langchain_community.utilities import GoogleSearchAPIWrapper
 from langchain_community.tools import GoogleSearchRun
 
 # 🔐 API keys
-groq_api_key = "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"
+groq_api_key = "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"
 google_api_key = "AIzaSyBquYJm-4MzJiMyzyrcoWQaR0g-q62vwR0"
 google_cse_id = "755f1b7126e8c49a6"
 
@@ -60,3 +60,4 @@ if prompt := st.chat_input("Ask me anything..."):
 
         st.session_state.messages.append({"role": "assistant", "content": final_text})
         st.write(final_text)
+
